@@ -18,13 +18,15 @@ mkdir -p ~/.vim/bundle
 
 # install actual dot files
 
-ln -sf .zshrc .vimrc .tmux.conf .gitconfig .screenrc .nethackrc ~/
+for i in .zshrc .vimrc .tmux.conf .gitconfig .screenrc .nethackrc ; do
+    ln -sf `pwd`/$i ~/
+done
 
 # install vim plugins
 
-ln -sf Vundle.vim ~/.vim/bundle/Vundle.vim
+ln -sf `pwd`/Vundle.vim ~/.vim/bundle/Vundle.vim
 
-ln -sf vim/colors ~/.vim/
+ln -sf `pwd`/vim/colors ~/.vim/
 
 vim +PluginInstall +qall
 

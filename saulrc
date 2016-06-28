@@ -1,7 +1,7 @@
 alias c='cryptmount'
 alias u='cryptmount --unmount'
 
-bind 'set match-hidden-files off'
+set match-hidden-files off
 
 wd() {
     grep -i $1 /usr/share/dict/words
