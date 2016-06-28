@@ -1,0 +1,28 @@
+
+!Vim*useSchemes:			all
+Vim*sgiMode:			true
+Vim*useEnhancedFSB:		true
+!Vim.foreground:			Black
+!Vim.background:			Wheat
+!Vim*fontList:			7x13
+vim*fontList: unifont
+
+urxvt.font: xft:Inconsolata:size=14,xft:unifont:size=14
+!urxvt.termName: xterm-256color
+urxvt.scrollBar: false
+urxvt.saveLines: 5000
+urxvt.urlLauncher: chromium
+urxvt*background: #000000
+urxvt.foreground: #ffffff
+urxvt.cursorColor: #44dd88
+urxvt.borderColor: #000000
+urxvt.internalBorder: 2
+urxvt.externalBorder: 1
+urxvt.lineSpace: 0
+urxvt.letterSpace: 0
+
+!urxvt.cursorBlink: true
+!urxvt.cursorUnderline: true
+!urxvt.backspacekey: DEC
+urxvt*inputMethod: uim
+

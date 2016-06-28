@@ -1,0 +1,4 @@
+
+xmodmap ~/dotfiles/Xmodmap
+export XCOMPOSEFILE=~/dotfiles/.XCompose
+

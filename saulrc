@@ -1,0 +1,18 @@
+alias c='cryptmount'
+alias u='cryptmount --unmount'
+
+bind 'set match-hidden-files off'
+
+wd() {
+    grep -i $1 /usr/share/dict/words
+}
+
+export LD_LIBRARY_PATH=/usr/local/bin
+
+export PYTHONPATH=.
+export LC_CTYPE=en_US.UTF8
+
+eval `dircolors ~/dotfiles/dircolors.txt`
+
+# eval `thefuck --alias`
+
