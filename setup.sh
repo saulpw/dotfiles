@@ -1,6 +1,5 @@
 #!/bin/sh
 
-# sudo apt-get install rxvt-unicode-256color
 # sudo apt-get install tmux zsh vim git python3
 
 git clone https://github.com/saulpw/dotfiles.git ~/dotfiles
@@ -19,11 +18,13 @@ mkdir -p ~/.vim/bundle
 
 # install actual dot files
 
-ln -sf .zshrc .vimrc .tmux.conf ~/
+ln -sf .zshrc .vimrc .tmux.conf .gitconfig .screenrc .nethackrc ~/
 
 # install vim plugins
 
 ln -sf Vundle.vim ~/.vim/bundle/Vundle.vim
+
+ln -sf vim/colors ~/.vim/
 
 vim +PluginInstall +qall
 

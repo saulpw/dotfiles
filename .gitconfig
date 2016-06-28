@@ -1,0 +1,11 @@
+[user]
+	email = code@saul.pw
+    name = Saul Pwanson
+
+[push]
+	default = simple
+[alias]
+	unadd = reset HEAD
+	vdiff = difftool -y -t meld
+[credential]
+	helper = cache --timeout 360000

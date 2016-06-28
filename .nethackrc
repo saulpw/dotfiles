@@ -1,0 +1,12 @@
+OPTIONS=showexp,showscore,time,autodig,msg_window=f
+OPTIONS=autopickup,color,number_pad,pickup_types=$?/=!"
+OPTIONS=autoquiver,eight_bit_tty,pushweapon,toptenwin,!verbose,lootabc
+OPTIONS=fruit=hash brownie,!cmdassist
+
+OPTIONS=menucolors
+MENUCOLOR=" blessed "=green
+MENUCOLOR=" holy "=green
+MENUCOLOR=" uncursed "=yellow
+MENUCOLOR=" cursed "=red
+MENUCOLOR=" unholy "=red
+MENUCOLOR=" cursed .* (being worn)"=orange&underline
