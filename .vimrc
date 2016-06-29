@@ -81,7 +81,7 @@ set background=light
 colorscheme morning
 
 set whichwrap=h,l,~,[,]
-set directory=~/.vim.swp
+set directory=~/.vim/swp
 syntax on
 
 set guioptions=aegirLt
@@ -157,6 +157,10 @@ vnoremap <Leader>rc y:%s/<C-r>"/
 
 nnoremap <Leader>- :split<cr>
 nnoremap <Leader>\| :vsplit<cr>
+
+" When you open a file, you can undo changes you made previously
+set undofile
+set undodir=~/.vim/undo/
 
 command! -nargs=0 DiffOrig leftabove vertical new |
       \ set buftype=nofile |

@@ -81,4 +81,10 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 bindkey "^[Oc" forward-word
 bindkey "^[Od" backward-word
 
+eval `dircolors ~/dotfiles/dircolors.txt`
+
 source ~/dotfiles/saulrc
+
+if [ -r ~/dotfiles-local/.zshrc-local ] ; then
+    source ~/dotfiles-local/.zshrc-local
+fi
