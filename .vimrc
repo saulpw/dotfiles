@@ -10,12 +10,23 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+" tag management
+Plugin 'taglist.vim'
+Plugin 'majutsushi/tagbar'
+
+" put tagbar on left
+let g:tagbar_left = 1
+
+" close after tag selection
+noremap <Leader>t :TagbarOpenAutoClose<cr>
+noremap <Leader>T :tl<cr>
+
 " status line
 Plugin 'bling/vim-airline'
 Plugin 'powerline/powerline'
 
 " colorschemes
-Plugin 'qualiabyte/vim-colorstepper'
+" Plugin 'qualiabyte/vim-colorstepper'
 
 " git
 Plugin 'tpope/vim-fugitive'
@@ -45,6 +56,9 @@ nnoremap <silent> <C-l> :nohl<cr>:redraw<cr>
 
 " file explorer
 Plugin 'scrooloose/nerdtree'
+
+" syntax highlighting checks
+Plugin 'scrooloose/syntastic'
 
 map <C-n> :NERDTreeToggle<CR>
 
@@ -157,6 +171,11 @@ vnoremap <Leader>rc y:%s/<C-r>"/
 
 nnoremap <Leader>- :split<cr>
 nnoremap <Leader>\| :vsplit<cr>
+nnoremap <Leader><Delete> :qall<cr>
+nnoremap <Leader><S-Delete> :qall!<cr>
+
+" make tabs and trailing spaces visible
+set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 
 " When you open a file, you can undo changes you made previously
 set undofile

@@ -1,14 +1,17 @@
 #!/bin/sh
 
-# sudo apt-get install tmux zsh vim git python3
-
-git clone https://github.com/saulpw/dotfiles.git ~/dotfiles
-
-cd ~/dotfiles
+echo sudo apt-get install tmux zsh vim git python3 exuberant-ctags
 
 # get external tools used
 
-git submodule update --init --recursive
+if [ ! -x ~/dotfiles ] ; then
+    git clone https://github.com/saulpw/dotfiles.git ~/dotfiles
+    git submodule update --init --recursive
+fi
+
+cd ~/dotfiles
+
+git submodule update --recursive
 
 # setup .vim dirs
 
@@ -18,7 +21,7 @@ mkdir -p ~/.vim/bundle
 
 # install actual dot files
 
-for i in .zshrc .vimrc .tmux.conf .gitconfig .screenrc .nethackrc ; do
+for i in .zshrc .vimrc .tmux.conf .ctags .gitconfig .screenrc .nethackrc .bash_aliases ; do
     ln -sf `pwd`/$i ~/
 done
 
@@ -32,5 +35,5 @@ vim +PluginInstall +qall
 
 # change shell to zsh
 
-chsh -s $(grep /zsh$ /etc/shells | tail -1)
+echo chsh -s $(grep /zsh$ /etc/shells | tail -1)
 
