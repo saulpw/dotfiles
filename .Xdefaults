@@ -11,7 +11,13 @@ urxvt.font: xft:Inconsolata:size=14,xft:unifont:size=14
 !urxvt.termName: xterm-256color
 urxvt.scrollBar: false
 urxvt.saveLines: 5000
-urxvt.urlLauncher: chromium
+
+
+urxvt.urlLauncher: /usr/bin/google-chrome
+urxvt*perl-ext: default,matcher
+urxvt*urlLauncher: /usr/bin/firefox3
+urxvt*matcher.Button: 1
+
 urxvt*background: #000000
 urxvt.foreground: #ffffff
 urxvt.cursorColor: #44dd88

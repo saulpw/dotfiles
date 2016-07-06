@@ -31,8 +31,17 @@ Plugin 'powerline/powerline'
 " git
 Plugin 'tpope/vim-fugitive'
 
+" vertical split for Gdiff by default
+set diffopt+=vertical
+
+" [n and ]n pairings
+Plugin 'tpope/vim-unimpaired'
+
 "" brackets and quotes
 Plugin 'tpope/vim-surround'
+
+" resolve git conflicts
+Plugin 'christoomey/vim-conflicted'
 
 " Split navigation that works with tmux
 Plugin 'christoomey/vim-tmux-navigator'
@@ -42,6 +51,10 @@ Plugin 'wincent/terminus'
 
 " tab completion
 Plugin 'ervandew/supertab'
+
+" buffer explorer/browser
+Plugin 'jlanzarotta/bufexplorer'
+noremap <Leader>b :BufExplorerHorizontalSplit<cr>
 
 " fullscreen vim pane
 Plugin 'ZoomWin'
@@ -174,6 +187,9 @@ nnoremap <Leader>\| :vsplit<cr>
 nnoremap <Leader><Delete> :qall<cr>
 nnoremap <Leader><S-Delete> :qall!<cr>
 
+" easy diff
+nnoremap <Leader>D :Gdiff<cr>
+
 " make tabs and trailing spaces visible
 set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 
@@ -192,3 +208,13 @@ command! -nargs=0 DiffOrig leftabove vertical new |
       \ diffthis |
       \ wincmd p |
       \ diffthis
+
+highlight DiffAdd    cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
+highlight DiffDelete cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
+highlight DiffChange cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
+highlight DiffText   cterm=bold ctermfg=10 ctermbg=88 gui=none guifg=bg guibg=Red
+
+" Fix the difficult-to-read default setting for diff text highlighting.  The
+" bang (!) is required since we are overwriting the DiffText setting. The highlighting
+" for "Todo" also looks nice (yellow) if you don't like the "MatchParen" colors.
+" highlight! link DiffText MatchParen

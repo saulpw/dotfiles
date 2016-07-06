@@ -1,6 +1,9 @@
 #!/bin/sh
 
-# sudo apt-get install rxvt-unicode-256color
+echo sudo apt-get install rxvt-unicode-256color xclip
+
+mkdir -p ~/dotfiles
+cd ~/dotfiles
 
 for i in .XCompose .Xdefaults .xinitrc .xinputrc ; do
 ln -sf `pwd`/$i ~/
