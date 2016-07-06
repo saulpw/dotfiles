@@ -4,7 +4,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=/home/saul/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle, required
@@ -33,6 +33,8 @@ Plugin 'tpope/vim-fugitive'
 
 " vertical split for Gdiff by default
 set diffopt+=vertical
+
+command Gdiffs cexpr system('git diff \| diff-hunk-list.pl')
 
 " [n and ]n pairings
 Plugin 'tpope/vim-unimpaired'
@@ -91,7 +93,7 @@ nmap <S-F7> <Plug>ColorstepPrev
 nmap <F7> <Plug>ColorstepNext
 nmap <M-F7> <Plug>ColorstepReload
 
-set shell=/bin/bash
+" set shell=/bin/bash
 
 set encoding=utf-8
 setglobal fileencoding=utf-8
