@@ -9,7 +9,7 @@ for i in .XCompose .Xdefaults .xinitrc .xinputrc ; do
 ln -sf `pwd`/$i ~/
 done
 
-mkdir ~/.i3
+mkdir -p ~/.i3
 ln -sf `pwd`/i3-config ~/.i3/config
 ln -sf `pwd`/.i3status.conf ~/
 

@@ -38,7 +38,7 @@ bindsym Pause exec sudo pm-suspend
 # installed.
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
-bindsym $mod+b exec google-chrome-stable
+bindsym $mod+b exec chromium-browser
 
 # change focus with cursor keys:
 bindsym $mod+Left focus left

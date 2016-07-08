@@ -6,12 +6,11 @@ echo sudo apt-get install tmux zsh vim git python3 exuberant-ctags
 
 if [ ! -x ~/dotfiles ] ; then
     git clone https://github.com/saulpw/dotfiles.git ~/dotfiles
-    git submodule update --init --recursive
 fi
 
 cd ~/dotfiles
 
-git submodule update --recursive
+git submodule update --init --recursive
 
 # setup .vim dirs
 
