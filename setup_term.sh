@@ -24,15 +24,16 @@ for i in .zshrc .vimrc .tmux.conf .ctags .gitconfig .screenrc .nethackrc .bash_a
     ln -sf `pwd`/$i ~/
 done
 
-# install vim plugins
+# setup vim plugins
 
 ln -sf `pwd`/Vundle.vim ~/.vim/bundle/Vundle.vim
 
 ln -sf `pwd`/vim/colors ~/.vim/
 
+# change shell to zsh
+chsh -s $(grep /zsh$ /etc/shells | tail -1)
+
+# install vim plugins
 vim +PluginInstall +qall
 
-# change shell to zsh
-
-echo chsh -s $(grep /zsh$ /etc/shells | tail -1)
 
