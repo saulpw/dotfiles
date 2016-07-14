@@ -67,7 +67,7 @@ nnoremap <silent> <Leader>f :ZoomWin<CR>
 "Plugin 'Xuyuanp/nerdtree-git-plugin'
 
 " <Ctrl-l> redraws the screen and removes any search highlighting.
-nnoremap <silent> <C-l> :nohl<cr>:redraw<cr>
+" nnoremap <silent> <C-l> :nohl<cr>:redraw<cr>
 
 " file explorer
 Plugin 'scrooloose/nerdtree'
@@ -93,14 +93,14 @@ nmap <S-F7> <Plug>ColorstepPrev
 nmap <F7> <Plug>ColorstepNext
 nmap <M-F7> <Plug>ColorstepReload
 
-" set shell=/bin/bash
+" set shell=/bin/zsh
 
 set encoding=utf-8
 setglobal fileencoding=utf-8
 
 set showmode
 set showcmd
-set mouse=a 
+set mouse=a
 
 "set number
 "set relativenumber
@@ -150,7 +150,7 @@ map <space> :
 map <cr> <leader>
 
 set tags=./tags;/
-map <C-\> :execute("!gvim -t".expand("<cword>"))<CR><CR>
+" map <C-\> :execute("!gvim -t".expand("<cword>"))<CR><CR>
 
 if has("cscope")
   set csprg=/usr/bin/cscope
@@ -220,3 +220,6 @@ highlight DiffText   cterm=bold ctermfg=10 ctermbg=88 gui=none guifg=bg guibg=Re
 " bang (!) is required since we are overwriting the DiffText setting. The highlighting
 " for "Todo" also looks nice (yellow) if you don't like the "MatchParen" colors.
 " highlight! link DiffText MatchParen
+
+" ^F finds all occurrences of word under cursor
+vnoremap <c-f> y<ESC>/<c-r>"<CR>

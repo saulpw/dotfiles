@@ -8,7 +8,7 @@ export ZSH=~/dotfiles/oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
+CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
@@ -88,3 +88,5 @@ source ~/dotfiles/saulrc
 if [ -r ~/dotfiles-local/.zshrc-local ] ; then
     source ~/dotfiles-local/.zshrc-local
 fi
+
+

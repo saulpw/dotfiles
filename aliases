@@ -1,7 +1,8 @@
 alias gd='git difftool'
 alias gdc='git difftool --cached'
+alias gvd='git vdiff'
+alias gvdc='git vdiff --cached'
 alias gc='git commit'
-alias gs='git status'
 
 alias fix='$EDITOR `git diff --name-only | uniq`'
 alias clswp='rm -f ~/.vim/swp/*'
@@ -10,3 +11,7 @@ alias vvi='vim ~/dotfiles/.vimrc'
 alias vzsh='vim ~/dotfiles/.zshrc ; source ~/.zshrc'
 alias sagi='sudo apt-get install'
 alias re='source ~/dotfiles/saulrc'
+
+gsys() {
+    grep -r $1 /usr/include/ /usr/local/include
+}
