@@ -4,7 +4,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=/home/saul/.vim/bundle/Vundle.vim
+set rtp+=$HOME/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle, required
@@ -47,6 +47,9 @@ Plugin 'christoomey/vim-conflicted'
 
 " Split navigation that works with tmux
 Plugin 'christoomey/vim-tmux-navigator'
+
+" VimuxRunCommand to create a pane and execute shell command
+Plugin 'benmills/vimux'
 
 " terminal integration: cursor, mouse, focus, paste
 Plugin 'wincent/terminus'
@@ -162,7 +165,7 @@ if has("cscope")
   cs add cscope.out
   " else add database pointed to by environment
   elseif $CSCOPE_DB != ""
-  cs add $CSCOPE_DB /home/saul/git
+  cs add $CSCOPE_DB $HOME/git
   endif
   set cscopeverbose
 endif
