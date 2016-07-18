@@ -7,15 +7,38 @@ Vim*useEnhancedFSB:		true
 !Vim*fontList:			7x13
 vim*fontList: unifont
 
+! https://github.com/ardumont/dot-files/blob/master/.Xresources
+!Xft.antialias: true
+!Xft.hinting: true
+!Xft.hintstyle: hintlight
+!Xft.rgba: rgb
+
 urxvt.font: xft:Inconsolata:size=14,xft:unifont:size=14
 !urxvt.termName: xterm-256color
 urxvt.scrollBar: false
 urxvt.saveLines: 5000
 
+! from https://wiki.archlinux.org/index.php/rxvt-unicode
+!! do not scroll with output
+URxvt*scrollTtyOutput: false
 
-urxvt.urlLauncher: /usr/bin/google-chrome
+!! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: false
+
+!! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+!! disable scrollback buffer for secondary screen
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+
+!! requires rxvt-unicode-better-wheel-scrolling patch
+!URxvt.secondaryWheel: 1
+URxvt.mouseWheelScrollPage: false
+
+! from elsewhere
+urxvt.urlLauncher: /usr/bin/chromium-browser
 urxvt*perl-ext: default,matcher
-urxvt*urlLauncher: /usr/bin/firefox3
 urxvt*matcher.Button: 1
 
 urxvt*background: #000000

@@ -1,8 +1,3 @@
-
-export GTK_IM_MODULE="xim"
-export QT_IM_MODULE="xim"
-export XMODIFIERS="@im=xim"
-
-xmodmap ~/dotfiles/Xmodmap
-export XCOMPOSEFILE=~/dotfiles/.XCompose
-
+# im-config(8) generated on Sun, 17 Jul 2016 22:45:17 -0700
+run_im uim
+# im-config signiture: 358a9eecf33a8e588eef79ee09c69af1  -
