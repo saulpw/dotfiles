@@ -1,0 +1,1 @@
+xsetkbmap -option compose:ralt

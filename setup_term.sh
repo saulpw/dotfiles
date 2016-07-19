@@ -20,8 +20,8 @@ mkdir -p ~/.vim/bundle
 
 # install actual dot files
 
-for i in .zshrc .vimrc .tmux.conf .ctags .gitconfig .screenrc .nethackrc .bash_aliases ; do
-    ln -sf `pwd`/$i ~/
+for i in zshrc vimrc tmux.conf ctags gitconfig screenrc nethackrc bash_aliases ; do
+    ln -sf `pwd`/$i ~/.$i
 done
 
 # setup vim plugins
