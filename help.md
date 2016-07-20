@@ -2,6 +2,7 @@
 == tmux
 
 ^H/^J/^K/^L   Left/Down/Up/Right to next vim/tmux pane
+` `     literal backtick (`)
 ` ]     resize current pane to 16 rows high
 ` \     resize current pane to 80 chars wide
 ` |     new horiz to the right
@@ -12,11 +13,12 @@
 ` f     fullscreen pane
 
 == vim
-^L   clear search highlights
-^\   Previous split
-\ f  fullscreen pane
-\ -  horiz split
-\ |  vert split
+^L      clear search highlights
+^\      Previous split
+\ f     fullscreen pane
+\ -     horiz split
+\ |     vert split
+\ Del   quit all
 
 
 prev/next/first/last

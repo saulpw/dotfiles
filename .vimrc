@@ -226,3 +226,7 @@ highlight DiffText   cterm=bold ctermfg=10 ctermbg=88 gui=none guifg=bg guibg=Re
 
 " ^F finds all occurrences of word under cursor
 vnoremap <c-f> y<ESC>/<c-r>"<CR>
+
+" to underline entire cursor line
+set cursorline
+

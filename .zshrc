@@ -5,7 +5,14 @@ export ZSH=~/dotfiles/oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+#ZSH_THEME="fishy"
+#ZSH_THEME="michelebologna"
+ZSH_THEME="risto"
+#kafeitu
+#marani
+#mrtazz
+#geoffgarside
+#pygmalion
 
 # Uncomment the following line to use case-sensitive completion.
 CASE_SENSITIVE="true"
@@ -75,7 +82,6 @@ export EDITOR='vim'
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 
 bindkey "^[Oc" forward-word
@@ -88,5 +94,4 @@ source ~/dotfiles/saulrc
 if [ -r ~/dotfiles-local/.zshrc-local ] ; then
     source ~/dotfiles-local/.zshrc-local
 fi
-
 
