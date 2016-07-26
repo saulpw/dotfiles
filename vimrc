@@ -10,6 +10,9 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+" todo list
+Plugin 'davidoc/taskpaper.vim'
+
 " tag management
 Plugin 'taglist.vim'
 Plugin 'majutsushi/tagbar'
@@ -18,8 +21,8 @@ Plugin 'majutsushi/tagbar'
 let g:tagbar_left = 1
 
 " close after tag selection
-noremap <Leader>t :TagbarOpenAutoClose<cr>
-noremap <Leader>T :tl<cr>
+noremap <Leader>T :TagbarOpenAutoClose<cr>
+noremap <Leader><C-T> :tl<cr>
 
 " status line
 Plugin 'bling/vim-airline'
@@ -230,3 +233,16 @@ vnoremap <c-f> y<ESC>/<c-r>"<CR>
 " to underline entire cursor line
 set cursorline
 
+" TEMPLATES
+function! LoadTemplate()
+    " load a template based on the file extension
+    silent! 0r ~/dotfiles/skel.%:e
+
+    " This last one deletes the placeholder
+    " %START% then leaves the cursor there.
+    %s/%START%//g
+endfunction
+autocmd! BufNewFile *.c call LoadTemplate()
+autocmd! BufNewFile *.h call LoadTemplate()
+autocmd! BufNewFile *.py call LoadTemplate()
+autocmd! BufNewFile *.html call LoadTemplate()

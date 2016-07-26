@@ -6,10 +6,10 @@ alias gc='git commit'
 
 alias fix='$EDITOR `git diff --name-only | uniq`'
 alias clswp='rm -f ~/.vim/swp/*'
-alias vtm='vim ~/.tmux.conf'
+alias vtm='vim ~/tmux.conf'
 alias val='vim ~/dotfiles/aliases ; source ~/dotfiles/aliases'
-alias vvi='vim ~/dotfiles/.vimrc'
-alias vzsh='vim ~/dotfiles/.zshrc ; source ~/.zshrc'
+alias vvi='vim ~/dotfiles/vimrc'
+alias vzsh='vim ~/dotfiles/zshrc ; source ~/zshrc'
 alias sagi='sudo apt-get install'
 alias re='source ~/dotfiles/saulrc'
 

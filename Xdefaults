@@ -37,7 +37,7 @@ URxvt.secondaryScroll: 0
 URxvt.mouseWheelScrollPage: false
 
 ! from elsewhere
-urxvt.urlLauncher: /usr/bin/chromium-browser
+urxvt.url-launcher: /usr/bin/chromium-browser
 urxvt*perl-ext: default,matcher
 urxvt*matcher.Button: 1
 
