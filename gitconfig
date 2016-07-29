@@ -12,8 +12,10 @@
 [diff]
 	tool = vimdiff
 [merge]
-	tool = vimdiff
+	tool = meld
 [difftool]
 	prompt = false
 [difftool "vimdiff"]
 	cmd = vim -f -d -c \"wincmd l\" -c 'cd \"$GIT_PREFIX\"' \"$LOCAL\" \"$REMOTE\"
+[core]
+	pager = less -F -X

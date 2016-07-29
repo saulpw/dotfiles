@@ -4,7 +4,7 @@ alias gvd='git vdiff'
 alias gvdc='git vdiff --cached'
 alias gc='git commit'
 
-alias fix='$EDITOR `git diff --name-only | uniq`'
+alias fix='$EDITOR `git diff --name-only --diff-filter=U | uniq`'
 alias clswp='rm -f ~/.vim/swp/*'
 alias vtm='vim ~/tmux.conf'
 alias val='vim ~/dotfiles/aliases ; source ~/dotfiles/aliases'
