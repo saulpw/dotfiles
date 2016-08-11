@@ -6,3 +6,4 @@
 --exclude=priv
 --exclude=doc
 --extra=+f
+--python-kinds=-i

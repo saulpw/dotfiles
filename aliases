@@ -11,6 +11,7 @@ alias val='vim ~/dotfiles/aliases ; source ~/dotfiles/aliases'
 alias vvi='vim ~/dotfiles/vimrc'
 alias vzsh='vim ~/dotfiles/zshrc ; source ~/zshrc'
 alias sagi='sudo apt-get install'
+alias acs='apt-cache search'
 alias re='source ~/dotfiles/saulrc'
 
 gsys() {
@@ -21,3 +22,4 @@ alias newpair='tmux -S /tmp/pair new-session -s orig "chmod 0777 /tmp/pair && zs
 alias pair='tmux -S /tmp/pair new-session -t orig'
 alias dotcommit='cd ~/dotfiles ; git commit -am "dotcommit" ; git push'
 
+alias ct='ctags -R -o tags .'
