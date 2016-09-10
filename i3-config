@@ -46,16 +46,27 @@ bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
 # move focused window with cursor keys:
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
 # split in horizontal orientation
-bindsym $mod+h split h
+bindsym $mod+Shift+bar split h
 
 # split in vertical orientation
+bindsym $mod+Shift+underscore split v
 bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
@@ -135,10 +146,20 @@ mode "resize" {
         bindsym Up resize shrink height 10 px or 10 ppt
         bindsym Right resize grow width 10 px or 10 ppt
 
+        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym j resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym l resize grow width 10 px or 10 ppt
+
         bindsym Shift+Left resize shrink width 100 px or 100 ppt
         bindsym Shift+Down resize grow height 100 px or 100 ppt
         bindsym Shift+Up resize shrink height 100 px or 100 ppt
         bindsym Shift+Right resize grow width 100 px or 100 ppt
+
+        bindsym Shift+h resize shrink width 100 px or 100 ppt
+        bindsym Shift+j resize grow height 100 px or 100 ppt
+        bindsym Shift+k resize shrink height 100 px or 100 ppt
+        bindsym Shift+l resize grow width 100 px or 100 ppt
 
         # back to normal: Enter or Escape
         bindsym Return mode "default"

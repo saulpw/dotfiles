@@ -13,7 +13,7 @@ vim*fontList: unifont
 !Xft.hintstyle: hintlight
 !Xft.rgba: rgb
 
-urxvt.font: xft:Inconsolata:size=14,xft:unifont:size=14
+urxvt.font: xft:Inconsolata:size=13,xft:unifont:size=13
 !urxvt.termName: xterm-256color
 urxvt.scrollBar: false
 urxvt.saveLines: 5000

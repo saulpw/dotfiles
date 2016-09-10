@@ -95,3 +95,4 @@ if [ -r ~/dotfiles-local/.zshrc-local ] ; then
     source ~/dotfiles-local/.zshrc-local
 fi
 
+alias gbr="git for-each-ref --sort=-committerdate refs/heads --format='%(refname:short)|%(committerdate:short)|%(authorname)|%(objectname:short)|%(contents:subject)' | column -t -s'|'"

@@ -13,6 +13,12 @@ Plugin 'VundleVim/Vundle.vim'
 " todo list
 Plugin 'davidoc/taskpaper.vim'
 
+"Navigate to the window you'd like to move
+"Press <leader>ww
+"Navigate to the window you'd like to swap with
+"Press <leader>ww again
+Plugin 'wesQ3/vim-windowswap'
+
 " tag management
 Plugin 'taglist.vim'
 Plugin 'majutsushi/tagbar'
