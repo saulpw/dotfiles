@@ -252,3 +252,6 @@ autocmd! BufNewFile *.c call LoadTemplate()
 autocmd! BufNewFile *.h call LoadTemplate()
 autocmd! BufNewFile *.py call LoadTemplate()
 autocmd! BufNewFile *.html call LoadTemplate()
+
+" allow vim to resize windows
+set ttymouse=xterm2
