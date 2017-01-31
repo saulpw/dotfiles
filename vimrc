@@ -1,4 +1,3 @@
-
 set t_Co=256
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -66,6 +65,9 @@ Plugin 'wincent/terminus'
 " tab completion
 Plugin 'ervandew/supertab'
 
+" show undo tree
+Plugin 'sjl/gundo'
+
 " buffer explorer/browser
 Plugin 'jlanzarotta/bufexplorer'
 noremap <Leader>b :BufExplorerHorizontalSplit<cr>
@@ -86,6 +88,9 @@ Plugin 'scrooloose/nerdtree'
 
 " syntax highlighting checks
 Plugin 'scrooloose/syntastic'
+let g:syntastic_python_pylint_post_args="--max-line-length=120"
+nnoremap <C-t> :SyntasticToggleMode<CR>
+
 
 map <C-n> :NERDTreeToggle<CR>
 
@@ -250,8 +255,11 @@ function! LoadTemplate()
 endfunction
 autocmd! BufNewFile *.c call LoadTemplate()
 autocmd! BufNewFile *.h call LoadTemplate()
-autocmd! BufNewFile *.py call LoadTemplate()
+"autocmd! BufNewFile *.py call LoadTemplate()
 autocmd! BufNewFile *.html call LoadTemplate()
 
 " allow vim to resize windows
 set ttymouse=xterm2
+
+" usable esc key on some kbs
+inoremap jk <Esc>
