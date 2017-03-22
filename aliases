@@ -23,3 +23,6 @@ alias pair='tmux -S /tmp/pair new-session -t orig'
 alias dotcommit='cd ~/dotfiles ; git commit -am "dotcommit" ; git push'
 
 alias ct='ctags -R -o tags .'
+
+DATA_ID=i-0073c88e4c13f26e3
+alias datastart="aws ec2 --profile saulpw start-instances --instance-ids $DATA_ID"

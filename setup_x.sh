@@ -2,6 +2,9 @@
 
 sudo apt-get install rxvt-unicode-256color xclip
 
+ln -sf /mnt/journal/gnupg ~/.gnupg
+
+# can be run before checkout
 mkdir -p ~/dotfiles
 cd ~/dotfiles
 

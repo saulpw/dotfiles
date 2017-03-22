@@ -253,13 +253,21 @@ function! LoadTemplate()
     " %START% then leaves the cursor there.
     %s/%START%//g
 endfunction
-autocmd! BufNewFile *.c call LoadTemplate()
-autocmd! BufNewFile *.h call LoadTemplate()
+"autocmd! BufNewFile *.c call LoadTemplate()
+"autocmd! BufNewFile *.h call LoadTemplate()
 "autocmd! BufNewFile *.py call LoadTemplate()
-autocmd! BufNewFile *.html call LoadTemplate()
+"autocmd! BufNewFile *.html call LoadTemplate()
 
 " allow vim to resize windows
 set ttymouse=xterm2
 
 " usable esc key on some kbs
-inoremap jk <Esc>
+"inoremap jk <Esc>
+
+set noswapfile
+set nobackup
+set nowritebackup
+if !&diff
+  set undodir=~/.vim/undodir
+  set undofile
+endif

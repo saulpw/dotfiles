@@ -1,0 +1,190 @@
+0x2000: [ "" ],  #     EN QUAD  =  
+0x2001: [ "" ],  #     EM QUAD  =  
+0x2002: [ "" ],  #     EN SPACE 
+0x2003: [ "" ],  #     EM SPACE 
+0x2004: [ "" ],  #     THREE-PER-EM SPACE 
+0x2005: [ "" ],  #     FOUR-PER-EM SPACE 
+0x2006: [ "" ],  #     SIX-PER-EM SPACE 
+0x2007: [ "" ],  #     FIGURE SPACE 
+0x2008: [ " ." ],  #     PUNCTUATION SPACE 
+0x2009: [ "" ],  #     THIN SPACE 
+0x200a: [ "" ],  #     HAIR SPACE 
+0x200b: [ "" ],  # ​   ZERO WIDTH SPACE 
+0x200c: [ "" ],  # ‌   ZERO WIDTH NON-JOINER 
+0x200d: [ "" ],  # ‍   ZERO WIDTH JOINER 
+0x200e: [ "" ],  # ‎   LEFT-TO-RIGHT MARK 
+0x200f: [ "" ],  # ‏   RIGHT-TO-LEFT MARK 
+0x2010: [ "" ],  # ‐   HYPHEN 
+0x2011: [ "" ],  # ‑   NON-BREAKING HYPHEN 
+0x2012: [ "" ],  # ‒   FIGURE DASH 
+0x2013: [ "--." ],  # –   EN DASH 
+0x2014: [ "---" ],  # —   EM DASH 
+0x2015: [ "" ],  # ―   HORIZONTAL BAR 
+0x2016: [ "" ],  # ‖   DOUBLE VERTICAL LINE 
+0x2017: [ "" ],  # ‗   DOUBLE LOW LINE 
+0x2018: [ "" ],  # ‘   LEFT SINGLE QUOTATION MARK 
+0x2019: [ "" ],  # ’   RIGHT SINGLE QUOTATION MARK 
+0x201a: [ "" ],  # ‚   SINGLE LOW-9 QUOTATION MARK 
+0x201b: [ "" ],  # ‛   SINGLE HIGH-REVERSED-9 QUOTATION MARK 
+0x201c: [ "" ],  # “   LEFT DOUBLE QUOTATION MARK 
+0x201d: [ "" ],  # ”   RIGHT DOUBLE QUOTATION MARK 
+0x201e: [ "" ],  # „   DOUBLE LOW-9 QUOTATION MARK 
+0x201f: [ "" ],  # ‟   DOUBLE HIGH-REVERSED-9 QUOTATION MARK 
+0x2020: [ "" ],  # †   DAGGER 
+0x2021: [ "" ],  # ‡   DOUBLE DAGGER 
+0x2022: [ "" ],  # •   BULLET 
+0x2023: [ "" ],  # ‣   TRIANGULAR BULLET 
+0x2024: [ "" ],  # ․   ONE DOT LEADER 
+0x2025: [ "" ],  # ‥   TWO DOT LEADER 
+0x2026: [ "" ],  # …   HORIZONTAL ELLIPSIS 
+0x2027: [ "" ],  # ‧   HYPHENATION POINT 
+0x2028: [ "" ],  #     LINE SEPARATOR 
+0x2029: [ "" ],  #     PARAGRAPH SEPARATOR 
+0x202a: [ "" ],  # ‪   LEFT-TO-RIGHT EMBEDDING 
+0x202b: [ "" ],  # ‫   RIGHT-TO-LEFT EMBEDDING 
+0x202c: [ "" ],  # ‬   POP DIRECTIONAL FORMATTING 
+0x202d: [ "" ],  # ‭   LEFT-TO-RIGHT OVERRIDE 
+0x202e: [ "" ],  # ‮   RIGHT-TO-LEFT OVERRIDE 
+0x202f: [ "" ],  #     NARROW NO-BREAK SPACE 
+0x2030: [ "%." ],  # ‰   PER MILLE SIGN 
+0x2031: [ "%%" ],  # ‱   PER TEN THOUSAND SIGN 
+0x2032: [ "" ],  # ′   PRIME 
+0x2033: [ "" ],  # ″   DOUBLE PRIME 
+0x2034: [ "" ],  # ‴   TRIPLE PRIME 
+0x2035: [ "" ],  # ‵   REVERSED PRIME 
+0x2036: [ "" ],  # ‶   REVERSED DOUBLE PRIME 
+0x2037: [ "" ],  # ‷   REVERSED TRIPLE PRIME 
+0x2038: [ "" ],  # ‸   CARET 
+0x2039: [ "" ],  # ‹   SINGLE LEFT-POINTING ANGLE QUOTATION MARK 
+0x203a: [ "" ],  # ›   SINGLE RIGHT-POINTING ANGLE QUOTATION MARK 
+0x203b: [ "" ],  # ※   REFERENCE MARK 
+0x203c: [ "" ],  # ‼   DOUBLE EXCLAMATION MARK 
+0x203d: [ "" ],  # ‽   INTERROBANG 
+0x203e: [ "" ],  # ‾   OVERLINE 
+0x203f: [ "" ],  # ‿   UNDERTIE 
+0x2040: [ "" ],  # ⁀   CHARACTER TIE 
+0x2041: [ "" ],  # ⁁   CARET INSERTION POINT 
+0x2042: [ "" ],  # ⁂   ASTERISM 
+0x2043: [ "" ],  # ⁃   HYPHEN BULLET 
+0x2044: [ "" ],  # ⁄   FRACTION SLASH 
+0x2045: [ "" ],  # ⁅   LEFT SQUARE BRACKET WITH QUILL 
+0x2046: [ "" ],  # ⁆   RIGHT SQUARE BRACKET WITH QUILL 
+0x2047: [ "" ],  # ⁇   DOUBLE QUESTION MARK 
+0x2048: [ "" ],  # ⁈   QUESTION EXCLAMATION MARK 
+0x2049: [ "" ],  # ⁉   EXCLAMATION QUESTION MARK 
+0x204a: [ "" ],  # ⁊   TIRONIAN SIGN ET 
+0x204b: [ "" ],  # ⁋   REVERSED PILCROW SIGN 
+0x204c: [ "" ],  # ⁌   BLACK LEFTWARDS BULLET 
+0x204d: [ "" ],  # ⁍   BLACK RIGHTWARDS BULLET 
+0x204e: [ "" ],  # ⁎   LOW ASTERISK 
+0x204f: [ "" ],  # ⁏   REVERSED SEMICOLON 
+0x2050: [ "" ],  # ⁐   CLOSE UP 
+0x2051: [ "" ],  # ⁑   TWO ASTERISKS ALIGNED VERTICALLY 
+0x2052: [ "" ],  # ⁒   COMMERCIAL MINUS SIGN 
+0x2053: [ "" ],  # ⁓   SWUNG DASH 
+0x2054: [ "" ],  # ⁔   INVERTED UNDERTIE 
+0x2055: [ "" ],  # ⁕   FLOWER PUNCTUATION MARK 
+0x2056: [ "" ],  # ⁖   THREE DOT PUNCTUATION 
+0x2057: [ "" ],  # ⁗   QUADRUPLE PRIME 
+0x2058: [ "" ],  # ⁘   FOUR DOT PUNCTUATION 
+0x2059: [ "" ],  # ⁙   FIVE DOT PUNCTUATION 
+0x205a: [ "" ],  # ⁚   TWO DOT PUNCTUATION 
+0x205b: [ "" ],  # ⁛   FOUR DOT MARK 
+0x205c: [ "" ],  # ⁜   DOTTED CROSS 
+0x205d: [ "" ],  # ⁝   TRICOLON 
+0x205e: [ "" ],  # ⁞   VERTICAL FOUR DOTS 
+0x205f: [ "" ],  #     MEDIUM MATHEMATICAL SPACE 
+0x2060: [ "" ],  # ⁠   WORD JOINER 
+0x2061: [ "" ],  # ⁡   FUNCTION APPLICATION 
+0x2062: [ "" ],  # ⁢   INVISIBLE TIMES 
+0x2063: [ "" ],  # ⁣   INVISIBLE SEPARATOR 
+0x206a: [ "" ],  # ⁪   INHIBIT SYMMETRIC SWAPPING 
+0x206b: [ "" ],  # ⁫   ACTIVATE SYMMETRIC SWAPPING 
+0x206c: [ "" ],  # ⁬   INHIBIT ARABIC FORM SHAPING 
+0x206d: [ "" ],  # ⁭   ACTIVATE ARABIC FORM SHAPING 
+0x206e: [ "" ],  # ⁮   NATIONAL DIGIT SHAPES 
+0x206f: [ "" ],  # ⁯   NOMINAL DIGIT SHAPES 
+0x2070: [ "**0" ],  # ⁰   SUPERSCRIPT ZERO 
+0x2071: [ "**i" ],  # ⁱ   SUPERSCRIPT LATIN SMALL LETTER I 
+0x2074: [ "**4" ],  # ⁴   SUPERSCRIPT FOUR 
+0x2075: [ "**5" ],  # ⁵   SUPERSCRIPT FIVE 
+0x2076: [ "**6" ],  # ⁶   SUPERSCRIPT SIX 
+0x2077: [ "**7" ],  # ⁷   SUPERSCRIPT SEVEN 
+0x2078: [ "**8" ],  # ⁸   SUPERSCRIPT EIGHT 
+0x2079: [ "**9" ],  # ⁹   SUPERSCRIPT NINE 
+0x207a: [ "**+" ],  # ⁺   SUPERSCRIPT PLUS SIGN 
+0x207b: [ "**-" ],  # ⁻   SUPERSCRIPT MINUS 
+0x207c: [ "**=" ],  # ⁼   SUPERSCRIPT EQUALS SIGN 
+0x207d: [ "**(" ],  # ⁽   SUPERSCRIPT LEFT PARENTHESIS 
+0x207e: [ "**)" ],  # ⁾   SUPERSCRIPT RIGHT PARENTHESIS 
+0x207f: [ "**n" ],  # ⁿ   SUPERSCRIPT LATIN SMALL LETTER N 
+0x2080: [ "_0" ],  # ₀   SUBSCRIPT ZERO 
+0x2081: [ "_1" ],  # ₁   SUBSCRIPT ONE 
+0x2082: [ "_2" ],  # ₂   SUBSCRIPT TWO 
+0x2083: [ "_3" ],  # ₃   SUBSCRIPT THREE 
+0x2084: [ "_4" ],  # ₄   SUBSCRIPT FOUR 
+0x2085: [ "_5" ],  # ₅   SUBSCRIPT FIVE 
+0x2086: [ "_6" ],  # ₆   SUBSCRIPT SIX 
+0x2087: [ "_7" ],  # ₇   SUBSCRIPT SEVEN 
+0x2088: [ "_8" ],  # ₈   SUBSCRIPT EIGHT 
+0x2089: [ "_9" ],  # ₉   SUBSCRIPT NINE 
+0x208a: [ "_+" ],  # ₊   SUBSCRIPT PLUS SIGN 
+0x208b: [ "_-" ],  # ₋   SUBSCRIPT MINUS 
+0x208c: [ "_=" ],  # ₌   SUBSCRIPT EQUALS SIGN 
+0x208d: [ "_(" ],  # ₍   SUBSCRIPT LEFT PARENTHESIS 
+0x208e: [ "_)" ],  # ₎   SUBSCRIPT RIGHT PARENTHESIS 
+0x2090: [ "m_a" ],  # ₐ   LATIN SUBSCRIPT SMALL LETTER A 
+0x2091: [ "m_e" ],  # ₑ   LATIN SUBSCRIPT SMALL LETTER E 
+0x2092: [ "m_o" ],  # ₒ   LATIN SUBSCRIPT SMALL LETTER O 
+0x2093: [ "_x" ],  # ₓ   LATIN SUBSCRIPT SMALL LETTER X 
+0x2094: [ "e_e" ],  # ₔ   LATIN SUBSCRIPT SMALL LETTER SCHWA 
+0x20a0: [ "$E" ],  # ₠   EURO-CURRENCY SIGN 
+0x20a1: [ "$C" ],  # ₡   COLON SIGN 
+0x20a2: [ "$c" ],  # ₢   CRUZEIRO SIGN 
+0x20a3: [ "$f" ],  # ₣   FRENCH FRANC SIGN 
+0x20a4: [ "$l" ],  # ₤   LIRA SIGN 
+0x20a5: [ "$m" ],  # ₥   MILL SIGN 
+0x20a6: [ "$N" ],  # ₦   NAIRA SIGN 
+0x20a7: [ "$p" ],  # ₧   PESETA SIGN 
+0x20a8: [ "$R" ],  # ₨   RUPEE SIGN 
+0x20a9: [ "$W" ],  # ₩   WON SIGN 
+0x20aa: [ "" ],  # ₪   NEW SHEQEL SIGN 
+0x20ab: [ "$d" ],  # ₫   DONG SIGN 
+0x20ac: [ "$e" ],  # €   EURO SIGN 
+0x20ad: [ "$K" ],  # ₭   KIP SIGN 
+0x20ae: [ "$T" ],  # ₮   TUGRIK SIGN 
+0x20af: [ "$D" ],  # ₯   DRACHMA SIGN 
+0x20b0: [ "$g" ],  # ₰   GERMAN PENNY SIGN 
+0x20b1: [ "$P" ],  # ₱   PESO SIGN 
+0x20b2: [ "$G" ],  # ₲   GUARANI SIGN 
+0x20b3: [ "$A" ],  # ₳   AUSTRAL SIGN 
+0x20b4: [ "$H" ],  # ₴   HRYVNIA SIGN 
+0x20b5: [ "/C" ],  # ₵   CEDI SIGN 
+0x20d0: [ "" ],  # ⃐   COMBINING LEFT HARPOON ABOVE 
+0x20d1: [ "" ],  # ⃑   COMBINING RIGHT HARPOON ABOVE 
+0x20d2: [ "" ],  # ⃒   COMBINING LONG VERTICAL LINE OVERLAY 
+0x20d3: [ "" ],  # ⃓   COMBINING SHORT VERTICAL LINE OVERLAY 
+0x20d4: [ "" ],  # ⃔   COMBINING ANTICLOCKWISE ARROW ABOVE 
+0x20d5: [ "" ],  # ⃕   COMBINING CLOCKWISE ARROW ABOVE 
+0x20d6: [ "" ],  # ⃖   COMBINING LEFT ARROW ABOVE 
+0x20d7: [ "" ],  # ⃗   COMBINING RIGHT ARROW ABOVE 
+0x20d8: [ "" ],  # ⃘   COMBINING RING OVERLAY 
+0x20d9: [ "" ],  # ⃙   COMBINING CLOCKWISE RING OVERLAY 
+0x20da: [ "" ],  # ⃚   COMBINING ANTICLOCKWISE RING OVERLAY 
+0x20db: [ "" ],  # ⃛   COMBINING THREE DOTS ABOVE 
+0x20dc: [ "" ],  # ⃜   COMBINING FOUR DOTS ABOVE 
+0x20dd: [ "" ],  # ⃝   COMBINING ENCLOSING CIRCLE 
+0x20de: [ "" ],  # ⃞   COMBINING ENCLOSING SQUARE 
+0x20df: [ "" ],  # ⃟   COMBINING ENCLOSING DIAMOND 
+0x20e0: [ "" ],  # ⃠   COMBINING ENCLOSING CIRCLE BACKSLASH 
+0x20e1: [ "" ],  # ⃡   COMBINING LEFT RIGHT ARROW ABOVE 
+0x20e2: [ "" ],  # ⃢   COMBINING ENCLOSING SCREEN 
+0x20e3: [ "" ],  # ⃣   COMBINING ENCLOSING KEYCAP 
+0x20e4: [ "" ],  # ⃤   COMBINING ENCLOSING UPWARD POINTING TRIANGLE 
+0x20e5: [ "" ],  # ⃥   COMBINING REVERSE SOLIDUS OVERLAY 
+0x20e6: [ "" ],  # ⃦   COMBINING DOUBLE VERTICAL STROKE OVERLAY 
+0x20e7: [ "" ],  # ⃧   COMBINING ANNUITY SYMBOL 
+0x20e8: [ "" ],  # ⃨   COMBINING TRIPLE UNDERDOT 
+0x20e9: [ "" ],  # ⃩   COMBINING WIDE BRIDGE ABOVE 
+0x20ea: [ "" ],  # ⃪   COMBINING LEFTWARDS ARROW OVERLAY 
+0x20eb: [ "" ],  # ⃫   COMBINING LONG DOUBLE SOLIDUS OVERLAY 

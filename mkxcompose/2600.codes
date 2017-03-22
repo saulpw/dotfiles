@@ -1,0 +1,191 @@
+0x2600: [ "bsunny" ],  # ☀   BLACK SUN WITH RAYS 
+0x2601: [ "cloud" ],  # ☁   CLOUD 
+0x2602: [ "umbrella" ],  # ☂   UMBRELLA 
+0x2603: [ "snowman" ],  # ☃   SNOWMAN 
+0x2604: [ "comet" ],  # ☄   COMET 
+0x2605: [ "b*" ],  # ★   BLACK STAR 
+0x2606: [ "*" ],  # ☆   WHITE STAR 
+0x2607: [ "ltng" ],  # ☇   LIGHTNING 
+0x2608: [ "tstorm" ],  # ☈   THUNDERSTORM 
+0x2609: [ "sun" ],  # ☉   SUN
+0x260a: [ "asc" ],  # ☊   ASCENDING NODE 
+0x260b: [ "desc" ],  # ☋   DESCENDING NODE 
+0x260c: [ "" ],  # ☌   CONJUNCTION 
+0x260d: [ "opp" ],  # ☍   OPPOSITION 
+0x260e: [ "bphone" ],  # ☎   BLACK TELEPHONE 
+0x260f: [ "wphone" ],  # ☏   WHITE TELEPHONE 
+0x2610: [ "[ ]" ],  # ☐   BALLOT BOX 
+0x2611: [ "[x]" ],  # ☑   BALLOT BOX WITH CHECK 
+0x2612: [ "[X]" ],  # ☒   BALLOT BOX WITH X 
+0x2613: [ "" ],  # ☓   SALTIRE 
+0x2614: [ "rain" ],  # ☔   UMBRELLA WITH RAIN DROPS 
+0x2615: [ "tea" ],  # ☕   HOT BEVERAGE 
+0x2616: [ "shogi" ],  # ☖   WHITE SHOGI PIECE 
+0x2617: [ "bshogi" ],  # ☗   BLACK SHOGI PIECE 
+0x2618: [ "shamrock" ],  # ☘   SHAMROCK 
+0x2619: [ "" ],  # ☙   REVERSED ROTATED FLORAL HEART BULLET 
+0x261a: [ "bpt<" ],  # ☚   BLACK LEFT POINTING INDEX  ("finger")
+0x261b: [ "bpt>" ],  # ☛   BLACK RIGHT POINTING INDEX 
+0x261c: [ "pt<" ],  # ☜   WHITE LEFT POINTING INDEX 
+0x261d: [ "pt^" ],  # ☝   WHITE UP POINTING INDEX 
+0x261e: [ "pt>" ],  # ☞   WHITE RIGHT POINTING INDEX 
+0x261f: [ "ptv" ],  # ☟   WHITE DOWN POINTING INDEX 
+0x2620: [ "xX" ],  # ☠   SKULL AND CROSSBONES 
+0x2621: [ "caution" ],  # ☡   CAUTION SIGN 
+0x2622: [ "rad" ],  # ☢   RADIOACTIVE SIGN 
+0x2623: [ "bio" ],  # ☣   BIOHAZARD SIGN 
+0x2624: [ "" ],  # ☤   CADUCEUS 
+0x2625: [ "ankh" ],  # ☥   ANKH 
+0x2626: [ "" ],  # ☦   ORTHODOX CROSS 
+0x2627: [ "" ],  # ☧   CHI RHO 
+0x2628: [ "" ],  # ☨   CROSS OF LORRAINE 
+0x2629: [ "" ],  # ☩   CROSS OF JERUSALEM 
+0x262a: [ "" ],  # ☪   STAR AND CRESCENT 
+0x262b: [ "" ],  # ☫   FARSI SYMBOL 
+0x262c: [ "" ],  # ☬   ADI SHAKTI 
+0x262d: [ "cccp" ],  # ☭   HAMMER AND SICKLE 
+0x262e: [ "peace" ],  # ☮   PEACE SYMBOL 
+0x262f: [ "yy" ],  # ☯   YIN YANG 
+0x2630: [ "___" ],  # ☰   TRIGRAM FOR HEAVEN 
+0x2631: [ " __" ],  # ☱   TRIGRAM FOR LAKE 
+0x2632: [ "_ _" ],  # ☲   TRIGRAM FOR FIRE 
+0x2633: [ "  _" ],  # ☳   TRIGRAM FOR THUNDER 
+0x2634: [ "__ " ],  # ☴   TRIGRAM FOR WIND 
+0x2635: [ " _ " ],  # ☵   TRIGRAM FOR WATER 
+0x2636: [ "_  " ],  # ☶   TRIGRAM FOR MOUNTAIN 
+0x2637: [ "   " ],  # ☷   TRIGRAM FOR EARTH 
+0x2638: [ "dharma" ],  # ☸   WHEEL OF DHARMA 
+0x2639: [ ":(" ],  # ☹   WHITE FROWNING FACE 
+0x263a: [ ":)" ],  # ☺   WHITE SMILING FACE 
+0x263b: [ "b:)" ],  # ☻   BLACK SMILING FACE 
+0x263c: [ "sunny" ],  # ☼   WHITE SUN WITH RAYS 
+0x263d: [ "moon1" ],  # ☽   FIRST QUARTER MOON 
+0x263e: [ "moon" ],  # ☾   LAST QUARTER MOON 
+0x263f: [ "mercury" ],  # ☿   MERCURY 
+0x2640: [ "female" ],  # ♀   FEMALE SIGN 
+0x2641: [ "earth" ],  # ♁   EARTH 
+0x2642: [ "male" ],  # ♂   MALE SIGN 
+0x2643: [ "jupiter" ],  # ♃   JUPITER 
+0x2644: [ "saturn" ],  # ♄   SATURN 
+0x2645: [ "uranus" ],  # ♅   URANUS 
+0x2646: [ "neptune" ],  # ♆   NEPTUNE 
+0x2647: [ "pluto" ],  # ♇   PLUTO 
+0x2648: [ "aries" ],  # ♈   ARIES 
+0x2649: [ "taurus" ],  # ♉   TAURUS 
+0x264a: [ "gemini" ],  # ♊   GEMINI 
+0x264b: [ "cancer" ],  # ♋   CANCER 
+0x264c: [ "leo" ],  # ♌   LEO 
+0x264d: [ "virgo" ],  # ♍   VIRGO 
+0x264e: [ "libra" ],  # ♎   LIBRA 
+0x264f: [ "scorpio" ],  # ♏   SCORPIUS 
+0x2650: [ "sagittarius" ],  # ♐   SAGITTARIUS 
+0x2651: [ "capricorn" ],  # ♑   CAPRICORN 
+0x2652: [ "aquarius" ],  # ♒   AQUARIUS 
+0x2653: [ "pisces" ],  # ♓   PISCES 
+0x2654: [ "Cwk" ],  # ♔   WHITE CHESS KING 
+0x2655: [ "Cwq" ],  # ♕   WHITE CHESS QUEEN 
+0x2656: [ "Cwr" ],  # ♖   WHITE CHESS ROOK 
+0x2657: [ "Cwb" ],  # ♗   WHITE CHESS BISHOP 
+0x2658: [ "Cwn" ],  # ♘   WHITE CHESS KNIGHT 
+0x2659: [ "Cwp" ],  # ♙   WHITE CHESS PAWN 
+0x265a: [ "Cbk" ],  # ♚   BLACK CHESS KING 
+0x265b: [ "Cbq" ],  # ♛   BLACK CHESS QUEEN 
+0x265c: [ "Cbr" ],  # ♜   BLACK CHESS ROOK 
+0x265d: [ "Cbb" ],  # ♝   BLACK CHESS BISHOP 
+0x265e: [ "Cbn" ],  # ♞   BLACK CHESS KNIGHT 
+0x265f: [ "Cbp" ],  # ♟   BLACK CHESS PAWN 
+0x2660: [ "bspade" ],  # ♠   BLACK SPADE SUIT 
+0x2661: [ "heart" ],  # ♡   WHITE HEART SUIT 
+0x2662: [ "diamond" ],  # ♢   WHITE DIAMOND SUIT 
+0x2663: [ "bclub" ],  # ♣   BLACK CLUB SUIT 
+0x2664: [ "spade" ],  # ♤   WHITE SPADE SUIT 
+0x2665: [ "bheart" ],  # ♥   BLACK HEART SUIT 
+0x2666: [ "bdiamond" ],  # ♦   BLACK DIAMOND SUIT 
+0x2667: [ "club" ],  # ♧   WHITE CLUB SUIT 
+0x2668: [ "HS" ],  # ♨   HOT SPRINGS 
+0x2669: [ "M4" ],  # ♩   QUARTER NOTE 
+0x266a: [ "M8" ],  # ♪   EIGHTH NOTE 
+0x266b: [ "M_8" ],  # ♫   BEAMED EIGHTH NOTES 
+0x266c: [ "M16" ],  # ♬   BEAMED SIXTEENTH NOTES 
+0x266d: [ "Mb" ],  # ♭   MUSIC FLAT SIGN 
+0x266e: [ "M##" ],  # ♮   MUSIC NATURAL SIGN 
+0x266f: [ "M# " ],  # ♯   MUSIC SHARP SIGN 
+0x2670: [ "" ],  # ♰   WEST SYRIAC CROSS 
+0x2671: [ "" ],  # ♱   EAST SYRIAC CROSS 
+0x2672: [ "R0" ],  # ♲   UNIVERSAL RECYCLING SYMBOL 
+0x2673: [ "R1" ],  # ♳   RECYCLING SYMBOL FOR TYPE-1 PLASTICS 
+0x2674: [ "R2" ],  # ♴   RECYCLING SYMBOL FOR TYPE-2 PLASTICS 
+0x2675: [ "R3" ],  # ♵   RECYCLING SYMBOL FOR TYPE-3 PLASTICS 
+0x2676: [ "R4" ],  # ♶   RECYCLING SYMBOL FOR TYPE-4 PLASTICS 
+0x2677: [ "R5" ],  # ♷   RECYCLING SYMBOL FOR TYPE-5 PLASTICS 
+0x2678: [ "R6" ],  # ♸   RECYCLING SYMBOL FOR TYPE-6 PLASTICS 
+0x2679: [ "R7" ],  # ♹   RECYCLING SYMBOL FOR TYPE-7 PLASTICS 
+0x267a: [ "Rg" ],  # ♺   RECYCLING SYMBOL FOR GENERIC MATERIALS 
+0x267b: [ "Rb0" ],  # ♻   BLACK UNIVERSAL RECYCLING SYMBOL 
+0x267c: [ "Rp" ],  # ♼   RECYCLED PAPER SYMBOL 
+0x267d: [ "" ],  # ♽   PARTIALLY-RECYCLED PAPER SYMBOL 
+0x267e: [ "" ],  # ♾   PERMANENT PAPER SIGN 
+0x267f: [ "wheelchair" ],  # ♿   WHEELCHAIR SYMBOL 
+0x2680: [ "d1" ],  # ⚀   DIE FACE-1 
+0x2681: [ "d2" ],  # ⚁   DIE FACE-2 
+0x2682: [ "d3" ],  # ⚂   DIE FACE-3 
+0x2683: [ "d4" ],  # ⚃   DIE FACE-4 
+0x2684: [ "d5" ],  # ⚄   DIE FACE-5 
+0x2685: [ "d6" ],  # ⚅   DIE FACE-6 
+0x2686: [ "O ." ],  # ⚆   WHITE CIRCLE WITH DOT RIGHT 
+0x2687: [ "O.." ],  # ⚇   WHITE CIRCLE WITH TWO DOTS 
+0x2688: [ "Ob ." ],  # ⚈   BLACK CIRCLE WITH WHITE DOT RIGHT 
+0x2689: [ "Ob.." ],  # ⚉   BLACK CIRCLE WITH TWO WHITE DOTS 
+0x268a: [ "yang" ],  # ⚊   MONOGRAM FOR YANG 
+0x268b: [ "yin" ],  # ⚋   MONOGRAM FOR YIN 
+0x268c: [ "" ],  # ⚌   DIGRAM FOR GREATER YANG 
+0x268d: [ "" ],  # ⚍   DIGRAM FOR LESSER YIN 
+0x268e: [ "" ],  # ⚎   DIGRAM FOR LESSER YANG 
+0x268f: [ "" ],  # ⚏   DIGRAM FOR GREATER YIN 
+0x2690: [ "wflag" ],  # ⚐   WHITE FLAG 
+0x2691: [ "bflag" ],  # ⚑   BLACK FLAG 
+0x2692: [ "" ],  # ⚒   HAMMER AND PICK 
+0x2693: [ "" ],  # ⚓   ANCHOR 
+0x2694: [ "" ],  # ⚔   CROSSED SWORDS 
+0x2695: [ "" ],  # ⚕   STAFF OF AESCULAPIUS 
+0x2696: [ "" ],  # ⚖   SCALES 
+0x2697: [ "" ],  # ⚗   ALEMBIC 
+0x2698: [ "" ],  # ⚘   FLOWER 
+0x2699: [ "" ],  # ⚙   GEAR 
+0x269a: [ "" ],  # ⚚   STAFF OF HERMES 
+0x269b: [ "atom" ],  # ⚛   ATOM SYMBOL 
+0x269c: [ "" ],  # ⚜   FLEUR-DE-LIS 
+0x269d: [ "" ],  # ⚝   OUTLINED WHITE STAR 
+0x26a0: [ "/!\\" ],  # ⚠   WARNING SIGN 
+0x26a1: [ "" ],  # ⚡   HIGH VOLTAGE SIGN 
+0x26a2: [ "Aff" ],  # ⚢   DOUBLED FEMALE SIGN 
+0x26a3: [ "Amm" ],  # ⚣   DOUBLED MALE SIGN 
+0x26a4: [ "Afm" ],  # ⚤   INTERLOCKED FEMALE AND MALE SIGN 
+0x26a5: [ "Atg" ],  # ⚥   MALE AND FEMALE SIGN 
+0x26a6: [ "Am-" ],  # ⚦   MALE WITH STROKE SIGN 
+0x26a7: [ "" ],  # ⚧   MALE WITH STROKE AND MALE AND FEMALE SIGN 
+0x26a8: [ "" ],  # ⚨   VERTICAL MALE WITH STROKE SIGN 
+0x26a9: [ "" ],  # ⚩   HORIZONTAL MALE WITH STROKE SIGN 
+0x26aa: [ "o " ],  # ⚪   MEDIUM WHITE CIRCLE 
+0x26ab: [ "ob " ],  # ⚫   MEDIUM BLACK CIRCLE 
+0x26ac: [ "o<" ],  # ⚬   MEDIUM SMALL WHITE CIRCLE 
+0x26ad: [ "marriage" ],  # ⚭   MARRIAGE SYMBOL 
+0x26ae: [ "divorce" ],  # ⚮   DIVORCE SYMBOL 
+0x26af: [ "dp" ],  # ⚯   UNMARRIED PARTNERSHIP SYMBOL 
+0x26b0: [ " coffin" ],  # ⚰   COFFIN 
+0x26b1: [ "urn" ],  # ⚱   FUNERAL URN 
+0x26b2: [ "neuter" ],  # ⚲   NEUTER 
+0x26b3: [ "Ace" ],  # ⚳   CERES 
+0x26b4: [ "Apa" ],  # ⚴   PALLAS 
+0x26b5: [ "Ajun" ],  # ⚵   JUNO 
+0x26b6: [ "Ave" ],  # ⚶   VESTA 
+0x26b7: [ "Ach" ],  # ⚷   CHIRON 
+0x26b8: [ "" ],  # ⚸   BLACK MOON LILITH 
+0x26b9: [ "" ],  # ⚹   SEXTILE 
+0x26ba: [ "" ],  # ⚺   SEMISEXTILE 
+0x26bb: [ "" ],  # ⚻   QUINCUNX 
+0x26bc: [ "" ],  # ⚼   SESQUIQUADRATE 
+0x26c0: [ "" ],  # ⛀   WHITE DRAUGHTS MAN 
+0x26c1: [ "" ],  # ⛁   WHITE DRAUGHTS KING 
+0x26c2: [ "" ],  # ⛂   BLACK DRAUGHTS MAN 
+0x26c3: [ "" ],  # ⛃   BLACK DRAUGHTS KING 

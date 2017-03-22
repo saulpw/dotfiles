@@ -60,7 +60,8 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/home/saul/dotfiles/bin:$PATH"
+export PATH="/home/saul/dotfiles/bin:/home/saul/dotfiles/local/bin:$PATH"
+export PYTHONPATH="/home/saul/git/visidata/"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -91,8 +92,10 @@ eval `dircolors ~/dotfiles/dircolors.txt`
 
 source ~/dotfiles/saulrc
 
-if [ -r ~/dotfiles-local/.zshrc-local ] ; then
-    source ~/dotfiles-local/.zshrc-local
+if [ -r ~/dotfiles/local/.zshrc-local ] ; then
+    source ~/dotfiles/local/.zshrc-local
 fi
 
 alias gbr="git for-each-ref --sort=-committerdate refs/heads --format='%(refname:short)|%(committerdate:short)|%(authorname)|%(objectname:short)|%(contents:subject)' | column -t -s'|'"
+
+set -o vi

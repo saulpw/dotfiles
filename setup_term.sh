@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo sudo apt-get install tmux zsh vim git python3 exuberant-ctags
+sudo apt-get install tmux zsh vim git python3 python3-pip exuberant-ctags
 
 # get external tools used
 
