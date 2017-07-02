@@ -13,7 +13,7 @@ vim*fontList: unifont
 !Xft.hintstyle: hintlight
 !Xft.rgba: rgb
 
-urxvt.font: xft:Inconsolata:size=13,xft:unifont:size=13
+urxvt.font: xft:Inconsolata:size=12,xft:unifont:size=12
 !urxvt.termName: xterm-256color
 urxvt.scrollBar: false
 urxvt.saveLines: 5000
@@ -47,7 +47,7 @@ urxvt.cursorColor: #44dd88
 urxvt.borderColor: #000000
 urxvt.internalBorder: 2
 urxvt.externalBorder: 1
-urxvt.lineSpace: 0
+urxvt.lineSpace: 1
 urxvt.letterSpace: 0
 
 !urxvt.cursorBlink: true
