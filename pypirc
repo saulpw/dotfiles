@@ -1,0 +1,15 @@
+[distutils]
+index-servers=
+    pypi
+    testpypi
+
+[pypi]
+username: saulpw
+password: XXX
+
+[testpypi]
+repository: https://test.pypi.org/legacy/
+username: saulpw
+password: XXX
+
+

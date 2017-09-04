@@ -10,7 +10,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " todo list
-Plugin 'davidoc/taskpaper.vim'
+"Plugin 'davidoc/taskpaper.vim'
 
 "Navigate to the window you'd like to move
 "Press <leader>ww
@@ -19,25 +19,25 @@ Plugin 'davidoc/taskpaper.vim'
 Plugin 'wesQ3/vim-windowswap'
 
 " tag management
-Plugin 'taglist.vim'
-Plugin 'majutsushi/tagbar'
+"Plugin 'taglist.vim'
+"Plugin 'majutsushi/tagbar'
 
 " put tagbar on left
-let g:tagbar_left = 1
+"let g:tagbar_left = 1
 
 " close after tag selection
-noremap <Leader>T :TagbarOpenAutoClose<cr>
-noremap <Leader><C-T> :tl<cr>
+"noremap <Leader>T :TagbarOpenAutoClose<cr>
+"noremap <Leader><C-T> :tl<cr>
 
 " status line
-Plugin 'bling/vim-airline'
-Plugin 'powerline/powerline'
+"Plugin 'bling/vim-airline'
+"Plugin 'powerline/powerline'
 
 " colorschemes
 " Plugin 'qualiabyte/vim-colorstepper'
 
 " git
-Plugin 'tpope/vim-fugitive'
+"Plugin 'tpope/vim-fugitive'
 
 " vertical split for Gdiff by default
 set diffopt+=vertical
@@ -54,19 +54,19 @@ Plugin 'tpope/vim-surround'
 Plugin 'christoomey/vim-conflicted'
 
 " Split navigation that works with tmux
-Plugin 'christoomey/vim-tmux-navigator'
+"Plugin 'christoomey/vim-tmux-navigator'
 
 " VimuxRunCommand to create a pane and execute shell command
-Plugin 'benmills/vimux'
+"Plugin 'benmills/vimux'
 
 " terminal integration: cursor, mouse, focus, paste
 Plugin 'wincent/terminus'
 
 " tab completion
-Plugin 'ervandew/supertab'
+"Plugin 'ervandew/supertab'
 
 " show undo tree
-Plugin 'sjl/gundo'
+"Plugin 'sjl/gundo'
 
 " buffer explorer/browser
 Plugin 'jlanzarotta/bufexplorer'
@@ -84,7 +84,7 @@ nnoremap <silent> <Leader>f :ZoomWin<CR>
 " nnoremap <silent> <C-l> :nohl<cr>:redraw<cr>
 
 " file explorer
-Plugin 'scrooloose/nerdtree'
+"Plugin 'scrooloose/nerdtree'
 
 " syntax highlighting checks
 Plugin 'scrooloose/syntastic'
@@ -95,10 +95,10 @@ nnoremap <C-t> :SyntasticToggleMode<CR>
 map <C-n> :NERDTreeToggle<CR>
 
 " split file explorer for nerdtree
-Plugin 'dhruvasagar/vim-vinegar'
+"Plugin 'dhruvasagar/vim-vinegar'
 
 " 
-Plugin 'ctrlpvim/ctrlp.vim'
+"Plugin 'ctrlpvim/ctrlp.vim'
 
 call vundle#end()            " required
 
