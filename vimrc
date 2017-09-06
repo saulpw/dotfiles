@@ -70,7 +70,7 @@ Plugin 'wincent/terminus'
 
 " buffer explorer/browser
 Plugin 'jlanzarotta/bufexplorer'
-noremap <Leader>b :BufExplorerHorizontalSplit<cr>
+noremap <Leader>b :BufExplorer<cr>
 
 " fullscreen vim pane
 Plugin 'ZoomWin'
