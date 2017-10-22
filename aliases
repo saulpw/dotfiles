@@ -26,3 +26,5 @@ alias ct='ctags -R -o tags .'
 
 DATA_ID=i-0073c88e4c13f26e3
 alias datastart="aws ec2 --profile saulpw start-instances --instance-ids $DATA_ID"
+alias anja="wemux join anja && wemux client rogue"
+alias saul="wemux join saul && wemux && chmod o-rwx /tmp/wemux-saul"

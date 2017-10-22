@@ -17,3 +17,5 @@ eval `dircolors ~/dotfiles/dircolors.txt`
 # eval `thefuck --alias`
 
 source ~/dotfiles/aliases
+
+umask 007

@@ -24,6 +24,10 @@ for i in zshrc vimrc tmux.conf ctags gitconfig screenrc nethackrc bash_aliases p
     ln -sf `pwd`/$i ~/.$i
 done
 
+# irssi config
+mkdir -p ~/.irssi
+ln -sf irssi.config ~/.irssi/config
+
 # setup vim plugins
 
 ln -sf `pwd`/Vundle.vim ~/.vim/bundle/Vundle.vim
