@@ -20,7 +20,7 @@ mkdir -p ~/.vim/bundle
 
 # install actual dot files
 
-for i in zshrc vimrc tmux.conf ctags gitconfig screenrc nethackrc bash_aliases pypirc ; do
+for i in zshrc vimrc tmux.conf ctags gitconfig screenrc nethackrc bash_aliases pypirc visidatarc ; do
     ln -sf `pwd`/$i ~/.$i
 done
 
