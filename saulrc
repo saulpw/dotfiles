@@ -19,3 +19,5 @@ eval `dircolors ~/dotfiles/dircolors.txt`
 source ~/dotfiles/aliases
 
 umask 007
+SAULPW=~/git/saulpw-www
+alias log="vim $SAULPW/log/$($SAULPW/bin/sauldate.py $(date)).md"
