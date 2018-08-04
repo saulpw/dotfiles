@@ -7,6 +7,7 @@
 [alias]
 	unadd = reset HEAD
 	vdiff = difftool -y -t meld
+	vd = difftool -y -t vd
 [credential]
 	helper = cache --timeout 360000
 [diff]
@@ -17,5 +18,7 @@
 	prompt = false
 [difftool "vimdiff"]
 	cmd = vim -f -d -c \"wincmd l\" -c 'cd \"$GIT_PREFIX\"' \"$LOCAL\" \"$REMOTE\"
+[difftool "vd"]
+    cmd = vd --diff \"$LOCAL\" \"$REMOTE\"
 [core]
 	pager = less -F -X
