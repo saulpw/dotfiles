@@ -7,11 +7,13 @@ wd() {
     grep -i $1 /usr/share/dict/words
 }
 
+export TZ=America/Los_Angeles
 export LD_LIBRARY_PATH=/usr/local/lib
 
 export PYTHONPATH=.
 export LC_CTYPE=en_US.UTF8
 
+export PATH=$PATH:~/.local/bin
 eval `dircolors ~/dotfiles/dircolors.txt`
 
 # eval `thefuck --alias`
@@ -20,4 +22,3 @@ source ~/dotfiles/aliases
 
 umask 007
 SAULPW=~/git/saulpw-www
-alias log="vim $SAULPW/log/$($SAULPW/bin/sauldate.py $(date)).md"
