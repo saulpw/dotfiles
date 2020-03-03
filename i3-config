@@ -20,12 +20,16 @@ set $mod Mod1
 # chose a FreeType font, such as:
 font pango:DejaVu Sans Mono 12
 
+exec setxkbmap -option compose:ralt
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec urxvt
-bindsym $mod+Shift+Return exec urxvt -fn xft:Inconsolata:size=16
+bindsym $mod+Shift+Return exec urxvt -fn xft:Inconsolata:size=20
+
+bindsym --release Shift+Print exec "scrot ~/tmp/screenshots/$(date --iso-8601='seconds').png -s -e 'xclip -selection c -t image/png < $f'"
 
 # kill focused window
 bindsym $mod+Shift+Delete kill
@@ -39,6 +43,7 @@ bindsym Pause exec sudo pm-suspend
 # installed.
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
+bindsym $mod+Shift+b exec firefox
 bindsym $mod+b exec chromium-browser
 
 # change focus with cursor keys:
