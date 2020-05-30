@@ -179,3 +179,6 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+exec --no-startup-id dockd dockd --daemon
+exec xautolock -time 10 -locker slock
