@@ -1,6 +1,3 @@
-alias c='cryptmount'
-alias u='cryptmount --unmount'
-
 set match-hidden-files off
 
 wd() {
@@ -10,10 +7,10 @@ wd() {
 export TZ=America/Los_Angeles
 export LD_LIBRARY_PATH=/usr/local/lib
 
-export PYTHONPATH=.
+export PYTHONPATH=/home/saul/git/visidata/
 export LC_CTYPE=en_US.UTF8
 
-export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.cargo/bin:~/.local/bin:/home/saul/git/visidata/bin
 eval `dircolors ~/dotfiles/dircolors.txt`
 
 # eval `thefuck --alias`
@@ -21,4 +18,7 @@ eval `dircolors ~/dotfiles/dircolors.txt`
 source ~/dotfiles/aliases
 
 umask 007
-SAULPW=~/git/saulpw-www
+SAULPW=~/git/saul.pw
+
+export GITCRYPT_KEY="AEdJVENSWVBUS0VZAAAAAgAAAAAAAAABAAAABAAAAAAAAAADAAAAIOPtOc8mHCs5r3KPi402Wme1GzZ7bDV115P/ftBGVKSGAAAABQAAAEDRBZGLoC/5N58F+2+EnXxEiJw9L+pr0mHxACRQmDzZQX3ATibnkqzjyPZINVJQlpj2aveO1zGzMhoSn9XuxBm5AAAAAA=="
+

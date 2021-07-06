@@ -14,17 +14,28 @@ alias sagi='sudo apt-get install'
 alias acs='apt-cache search'
 alias re='source ~/dotfiles/saulrc'
 
+alias kobo='sudo mount /dev/sdb /mnt/kobo/ -ouid=saul'
+alias c='cryptmount'
+alias u='cryptmount --unmount'
+alias j='gvim /mnt/journal/journal/2020/2020.txt'
+alias d='vd ~/decimal/28-records/records.sqlite'
+alias v='cd ~/decimal/33-code/33.10-visidata/'
+alias pw="cd ~/decimal/37-career/37.04-pwanson-and-pwanson/"
+alias dark="cd ~/git/darkdraw/"
+alias m="cd ~/decimal/37-career/37.15-marketing-machine"
+alias dev="cd ~/decimal/47-founder/47.03-devottys"
+alias os="cd ~/decimal/31-games/31.12-lifeos"
+alias ab="docker-compose -f ~/archivebox/docker-compose.yml run archivebox"
+alias bitio="cd ~/decimal/37-career/37.16-bit.io"
+
+
 gsys() {
     grep -r $1 /usr/include/ /usr/local/include
 }
 
-alias newpair='tmux -S /tmp/pair new-session -s orig "chmod 0777 /tmp/pair && zsh"'
-alias pair='tmux -S /tmp/pair new-session -t orig'
 alias dotcommit='cd ~/dotfiles ; git commit -am "dotcommit" ; git push'
 
 alias ct='ctags -R -o tags .'
 
 DATA_ID=i-0073c88e4c13f26e3
 alias datastart="aws ec2 --profile saulpw start-instances --instance-ids $DATA_ID"
-alias anja="wemux join anja && wemux client rogue"
-alias saul="wemux join saul && wemux && chmod o-rwx /tmp/wemux-saul"

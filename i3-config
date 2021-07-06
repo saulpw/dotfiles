@@ -26,8 +26,8 @@ exec setxkbmap -option compose:ralt
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec urxvt
-bindsym $mod+Shift+Return exec urxvt -fn xft:Inconsolata:size=20
+bindsym $mod+Return exec kitty -o font_size=12 -o font_family=Inconsolata
+bindsym $mod+Shift+Return exec kitty -o font_size=16 -o font_family=Inconsolata
 
 bindsym --release Shift+Print exec "scrot ~/tmp/screenshots/$(date --iso-8601='seconds').png -s -e 'xclip -selection c -t image/png < $f'"
 
@@ -43,8 +43,8 @@ bindsym Pause exec sudo pm-suspend
 # installed.
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
-bindsym $mod+Shift+b exec firefox
-bindsym $mod+b exec chromium-browser
+bindsym $mod+b exec firefox
+bindsym $mod+Shift+b exec chromium-browser
 
 # change focus with cursor keys:
 bindsym $mod+Left focus left
