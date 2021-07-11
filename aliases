@@ -18,15 +18,15 @@ alias kobo='sudo mount /dev/sdb /mnt/kobo/ -ouid=saul'
 alias c='cryptmount'
 alias u='cryptmount --unmount'
 alias j='gvim /mnt/journal/journal/2020/2020.txt'
-alias d='vd ~/decimal/28-records/records.sqlite'
-alias v='cd ~/decimal/33-code/33.10-visidata/'
-alias pw="cd ~/decimal/37-career/37.04-pwanson-and-pwanson/"
+alias d='vd ~/lifefs/records.sqlite'
+alias v='cd ~/lifeos/21-visidata/'
+alias pw="cd ~/lifefs/21-pwanson-and-pwanson/"
 alias dark="cd ~/git/darkdraw/"
-alias m="cd ~/decimal/37-career/37.15-marketing-machine"
-alias dev="cd ~/decimal/47-founder/47.03-devottys"
-alias os="cd ~/decimal/31-games/31.12-lifeos"
+alias m="cd ~/lifefs-21-marketing-machine"
+alias dev="cd ~/lifefs/21-devottys"
+alias os="cd ~/lifefs/21-lifeos"
 alias ab="docker-compose -f ~/archivebox/docker-compose.yml run archivebox"
-alias bitio="cd ~/decimal/37-career/37.16-bit.io"
+alias bitio="cd ~/lifefs/21-bitdotio"
 
 
 gsys() {
