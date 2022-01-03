@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+
+echo -n "topic: "
+read topic
+
+echo -n "recommender: "
+read recommender
+
+OUTFN=~/lifefs/archive/links.jsonl
+HREF=$1
+TITLE=$(curl "$1" -so - | grep -iPo '<title.*?>\K(.*)(?=</title>)' | head -n 1 -)
+shift
+
+mkjson date=now href=\""$HREF"\" desc=\""$TITLE"\" recommender=\""$recommender"\" topic=\""$topic"\" $* >> $OUTFN

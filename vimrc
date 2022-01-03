@@ -135,7 +135,7 @@ set guioptions-=m "remove menu bar
 set guioptions-=T "remove toolbar
 set guioptions-=r "remove right-hand scroll bar
 
-set guifont=Inconsolata\ Medium\ 13
+set guifont=Inconsolata\ Medium\ 16
 
 set regexpengine=1
 
@@ -154,7 +154,7 @@ set incsearch
 
 "" Custom
 
-map <leader>d :.!date +'--- \%Y-\%b-\%d \%A \%l:\%M\%P'
+map <leader>d :.!date +'\# \%Y-\%m-\%d'
 map <leader>a Gyyp<C-F><leader>d<Enter>A<Enter>
 
 "" Makefiles can have names such as Makefile.rules or TEST.nightly.Makefile

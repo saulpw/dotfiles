@@ -1,0 +1,7 @@
+#!vd -p
+{"longname": "open-file", "input": "/home/saul/lifefs/pwanson-llc/ledger.jsonl", "keystrokes": "o"}
+{"sheet": "ledger", "col": "expenses", "row": "", "longname": "addcol-expr", "input": "(income or 0)+(expenses or 0)", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "ledger", "col": "(income or 0)+(expenses or 0)", "row": "", "longname": "rename-col", "input": "net", "keystrokes": "^", "comment": "edit name of current column"}
+{"sheet": "ledger", "col": "net", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "ledger", "col": "net", "row": "", "longname": "aggregate-col", "input": "sum", "keystrokes": "+", "comment": "Add aggregator to current column"}
+{"sheet": "ledger", "col": "internal_acct", "row": "", "longname": "freq-col", "input": "", "keystrokes": "Shift+F", "comment": "open Frequency Table grouped on current column, with aggregations of other columns"}

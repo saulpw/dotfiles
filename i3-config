@@ -178,7 +178,13 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+        strip_workspace_numbers no
+        strip_workspace_name no
 }
 
 exec --no-startup-id dockd dockd --daemon
+exec --no-startup-id "xmodmap ~/.Xmodmap"
 exec xautolock -time 10 -locker slock
+
+for_window [title="^zoom$" class="[zoom]*"] floating enabled
+for_window [title="^zoom$" class="[zoom]*"] move scratchpad

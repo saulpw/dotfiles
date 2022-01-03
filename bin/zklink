@@ -1,0 +1,14 @@
+#!/bin/zsh
+
+DATE=`date +%Y-%m-%d`
+DT=`date +%y%m%d`
+ZKDIR=~/lifefs/zk/
+HREF=$1
+ZKIDBASE=link$DT
+ZKN=`ls $ZKDIR/$ZKIDBASE* | wc -l`
+ZKID=$ZKIDBASE-$ZKN
+ZKFN=$ZKDIR/$ZKID.org
+TITLE=$(curl "$1" -so - | grep -iPo '<title.*?>\K(.*)(?=</title>)' | head -n 1 -)
+
+echo -e "---\n+#title: $TITLE\n+#id: $ZKID\n+#date: $DATE\n+#tags: \n---\n\n---\n$HREF" >> $ZKFN
+$SHELL -c "$EDITOR $ZKFN"

@@ -1,2 +1,5 @@
 ! Right-Alt
 keycode 108 = Multi_key
+
+keysym 66 = Multi_key
+clear Lock

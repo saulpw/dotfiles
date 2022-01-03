@@ -20,13 +20,9 @@ mkdir -p ~/.vim/bundle
 
 # install actual dot files
 
-for i in zshrc vimrc tmux.conf ctags gitconfig screenrc nethackrc bash_aliases pypirc visidatarc ; do
+for i in zshrc vimrc tmux.conf ctags gitconfig pypirc ; do
     ln -sf `pwd`/$i ~/.$i
 done
-
-# irssi config
-mkdir -p ~/.irssi
-ln -sf irssi.config ~/.irssi/config
 
 # setup vim plugins
 
@@ -39,5 +35,3 @@ chsh -s $(grep /zsh$ /etc/shells | tail -1)
 
 # install vim plugins
 vim +PluginInstall +qall
-
-

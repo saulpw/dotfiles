@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+
+import sys
+import json
+import datetime
+
+today = datetime.datetime.now().strftime('%Y-%m-%d')
+now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+def deduce_type(v):
+    try:
+        return eval(v)
+    except Exception:
+        pass
+
+    return v
+
+d = {}
+for arg in sys.argv[1:]:
+    k, v = arg.split("=", maxsplit=1)
+    d[k] = deduce_type(v)
+
+print(json.dumps(d))

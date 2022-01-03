@@ -1771,13 +1771,13 @@
 <Multi_key> <g> <k>  : "κ" U03BA # GREEK SMALL LETTER KAPPA  
 <Multi_key> <m> <equal>  : "≞" U225E # MEASURED BY  
 <Multi_key> <question> <equal>  : "≟" U225F # QUESTIONED EQUAL TO  
-<Multi_key> <S> <b> <s>  : "♠" U2660 # BLACK SPADE SUIT  
+<Multi_key> <s> <p> : "♠" U2660 # BLACK SPADE SUIT  
 <Multi_key> <equal> <equal>  : "≡" U2261 # IDENTICAL TO  
 <Multi_key> <slash> <equal> <equal>  : "≢" U2262 # NOT IDENTICAL TO  
 <Multi_key> <g> <l>  : "λ" U03BB # GREEK SMALL LETTER LAMDA  
 <Multi_key> <less> <equal>  : "≤" U2264 # LESS-THAN OR EQUAL TO  
 <Multi_key> <greater> <equal>  : "≥" U2265 # GREATER-THAN OR EQUAL TO  
-<Multi_key> <S> <b> <d>  : "♦" U2666 # BLACK DIAMOND SUIT  
+<Multi_key> <d> <i> : "♦" U2666 # BLACK DIAMOND SUIT  
 <Multi_key> <S> <w> <c>  : "♧" U2667 # WHITE CLUB SUIT  
 <Multi_key> <H> <S>  : "♨" U2668 # HOT SPRINGS  
 <Multi_key> <g> <m>  : "μ" U03BC # GREEK SMALL LETTER MU  
@@ -1822,7 +1822,7 @@
 <Multi_key> <A> <f> <m>  : "⚤" U26A4 # INTERLOCKED FEMALE AND MALE SIGN  
 <Multi_key> <A> <t> <g>  : "⚥" U26A5 # MALE AND FEMALE SIGN  
 <Multi_key> <A> <m> <minus>  : "⚦" U26A6 # MALE WITH STROKE SIGN  
-<Multi_key> <S> <b> <h>  : "♥" U2665 # BLACK HEART SUIT  
+<Multi_key> <h> <e>   : "♥" U2665 # BLACK HEART SUIT  
 <Multi_key> <o> <b> <space>  : "⚫" U26AB # MEDIUM BLACK CIRCLE  
 <Multi_key> <w> <w>  : "ʬ" U02AC # LATIN LETTER BILABIAL PERCUSSIVE  
 <Multi_key> <S> <w> <s>  : "♤" U2664 # WHITE SPADE SUIT  
@@ -2554,7 +2554,7 @@
 <Multi_key> <semicolon> <BackSpace>	 		  : "⁏"	 U204F	# REVERSED SEMICOLON
 # Keep looking into big hunks of Latin Extended-D, A720- et seq.
 <Multi_key> <less> <3>                  : "♥"  U2665            # BLACK HEART SUIT
-<Multi_key> <3> <3>			: "♣" U2663		# BLACK CLUB SUIT
+<Multi_key> <c> <l>			: "♣" U2663		# BLACK CLUB SUIT
 <Multi_key> <o> <8>			: "♣" U2663		# BLACK CLUB SUIT
 <Multi_key> <c> <3>			: "♣" U2663		# BLACK CLUB SUIT
 <Multi_key> <less> <greater>		: "♢" U2662		# WHITE DIAMOND SUIT

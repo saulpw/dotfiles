@@ -18,4 +18,5 @@ eval `dircolors ~/dotfiles/dircolors.txt`
 source ~/dotfiles/aliases
 
 umask 007
-SAULPW=~/git/saul.pw
+
+export LEDGER_FILE=~/lifefs/ledger/saulpw.journal

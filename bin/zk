@@ -1,0 +1,12 @@
+#!/bin/zsh
+
+DATE=`date +%Y-%m-%d`
+DT=`date +%y%m%d`
+ZKDIR=~/lifefs/zk/
+ZKIDBASE=${1:-$DT}
+ZKN=`ls $ZKDIR/$ZKIDBASE* | wc -l`
+ZKID=$ZKIDBASE-$ZKN
+ZKFN=$ZKDIR/$ZKID.org
+
+echo -e "---\n+#title: \n+#id: $ZKID\n+#date: $DATE\n+#tags: \n---\n\n---" >> $ZKFN
+$SHELL -c "$EDITOR $ZKFN"
