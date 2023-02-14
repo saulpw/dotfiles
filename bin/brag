@@ -1,0 +1,7 @@
+#!/bin/bash
+
+TODAY=`date +"%Y-%m-%d"`
+
+sqlite3 $SPWDB << HERE
+INSERT INTO brags (date, accomplishment) VALUES ('$TODAY', '$*') ;
+HERE
