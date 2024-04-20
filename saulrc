@@ -1,5 +1,3 @@
-set match-hidden-files off
-
 wd() {
     grep -i $1 /usr/share/dict/words
 }

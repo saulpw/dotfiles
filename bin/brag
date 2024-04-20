@@ -5,3 +5,5 @@ TODAY=`date +"%Y-%m-%d"`
 sqlite3 $SPWDB << HERE
 INSERT INTO brags (date, accomplishment) VALUES ('$TODAY', '$*') ;
 HERE
+
+echo brag recorded $TODAY

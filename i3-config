@@ -18,7 +18,7 @@ set $mod Mod1
 # clear in small sizes. However, if you need a lot of unicode glyphs or
 # right-to-left text rendering, you should instead use pango for rendering and
 # chose a FreeType font, such as:
-font pango:DejaVu Sans Mono 12
+font pango:DejaVu Sans Mono 16
 
 exec setxkbmap -option compose:ralt
 
@@ -43,8 +43,8 @@ bindsym Pause exec sudo pm-suspend
 # installed.
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
-bindsym $mod+b exec firefox
 bindsym $mod+Shift+b exec chromium-browser
+bindsym $mod+b exec firefox
 
 # change focus with cursor keys:
 bindsym $mod+Left focus left

@@ -124,7 +124,7 @@ set mouse=a
 noremap <Leader># :set number!<cr>
 
 set background=light
-colorscheme morning
+colorscheme basal-light
 
 set whichwrap=h,l,~,[,]
 set directory=~/.vim/swp
@@ -135,7 +135,7 @@ set guioptions-=m "remove menu bar
 set guioptions-=T "remove toolbar
 set guioptions-=r "remove right-hand scroll bar
 
-set guifont=Inconsolata\ Medium\ 16
+set guifont=Inconsolata\ Medium\ 14
 
 set regexpengine=1
 
@@ -259,7 +259,7 @@ endfunction
 "autocmd! BufNewFile *.html call LoadTemplate()
 
 " allow vim to resize windows
-set ttymouse=xterm2
+"set ttymouse=xterm2
 
 " usable esc key on some kbs
 "inoremap jk <Esc>
@@ -267,7 +267,3 @@ set ttymouse=xterm2
 set noswapfile
 set nobackup
 set nowritebackup
-if !&diff
-  set undodir=~/.vim/undodir
-  set undofile
-endif

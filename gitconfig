@@ -1,6 +1,6 @@
 [user]
 	email = code@saul.pw
-    name = Saul Pwanson
+	name = Saul Pwanson
 
 [push]
 	default = simple
@@ -25,3 +25,5 @@
 	autocrlf = false
 [pull]
 	ff = only
+[rebase]
+	autoStash = true
