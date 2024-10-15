@@ -8,7 +8,7 @@ export LD_LIBRARY_PATH=/usr/local/lib
 export PYTHONPATH=/home/saul/git/visidata/
 export LC_CTYPE=en_US.UTF8
 
-export PATH=$PATH:~/.cargo/bin:~/.local/bin:/home/saul/git/visidata/bin
+export PATH=$PATH:~/.cargo/bin:~/.local/bin:/home/saul/git/visidata/bin:/home/saul/git/visidata/visidata/apps/bin
 eval `dircolors ~/dotfiles/dircolors.txt`
 
 # eval `thefuck --alias`

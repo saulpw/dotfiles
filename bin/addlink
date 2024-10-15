@@ -1,14 +1,9 @@
 #!/usr/bin/env zsh
 
-echo -n "topic: "
-read topic
-
-echo -n "recommender: "
-read recommender
-
-OUTFN=~/lifefs/archive/links.jsonl
+YM=$(date +"%Y-%m")
 HREF=$1
 TITLE=$(curl "$1" -so - | grep -iPo '<title.*?>\K(.*)(?=</title>)' | head -n 1 -)
+OUTFN=~/git/24-saul.pw/posts/links/$YM.md
 shift
 
-mkjson date=now href=\""$HREF"\" desc=\""$TITLE"\" recommender=\""$recommender"\" topic=\""$topic"\" $* >> $OUTFN
+echo "- [$TITLE]($HREF)  $*" >> $OUTFN
