@@ -45,7 +45,7 @@ set diffopt+=vertical
 command Gdiffs cexpr system('git diff \| diff-hunk-list.pl')
 
 " [n and ]n pairings
-Plugin 'tpope/vim-unimpaired'
+"Plugin 'tpope/vim-unimpaired'
 
 "" brackets and quotes
 Plugin 'tpope/vim-surround'
@@ -87,12 +87,12 @@ nnoremap <silent> <Leader>f :ZoomWin<CR>
 "Plugin 'scrooloose/nerdtree'
 
 " syntax highlighting checks
-Plugin 'scrooloose/syntastic'
-let g:syntastic_python_pylint_post_args="--max-line-length=120"
-nnoremap <C-t> :SyntasticToggleMode<CR>
+"Plugin 'scrooloose/syntastic'
+"let g:syntastic_python_pylint_post_args="--max-line-length=120"
+"nnoremap <C-t> :SyntasticToggleMode<CR>
 
 
-map <C-n> :NERDTreeToggle<CR>
+"map <C-n> :NERDTreeToggle<CR>
 
 " split file explorer for nerdtree
 "Plugin 'dhruvasagar/vim-vinegar'
